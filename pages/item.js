@@ -1,7 +1,7 @@
 import Story from "../components/story.js";
 import view from "../utils/view.js";
 import baseUrl from '../utils/baseUrl.js';
-import Comment from "../components/comment.js";
+import Comment from "../components/Comment.js";
 
 
 export default async function Item(){
