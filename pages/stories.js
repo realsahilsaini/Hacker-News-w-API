@@ -1,5 +1,6 @@
 import view from '../utils/view.js';
 import Story from '../components/story.js';
+import baseUrl from '../utils/baseUrl.js';
 
 export default async function Stories(path) {
   const stories = await getStories(path);
@@ -32,7 +33,7 @@ async function getStories(path){
     path = '/newest'
   }
 
-  const response  =  await fetch(`https://node-hnapi.herokuapp.com${path}`);
+  const response  =  await fetch(`${baseUrl}${path}`);
   //To be able to easily resolve this, since we know fetch returns a promise indiciating our data, we can make this async function, and we can await our request that we are making;
 
   const stories = await response.json();
