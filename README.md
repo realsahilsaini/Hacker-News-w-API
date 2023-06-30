@@ -3,7 +3,7 @@
 This is an **Advance Javascript project**
 
 Build with concepts like:
-> Async Javascript
-> Routes (navigo)
-> State Management
-> Reducers
+> 1. Async Javascript
+> 2. Routes (navigo)
+> 3. State Management
+> 4. Reducers
